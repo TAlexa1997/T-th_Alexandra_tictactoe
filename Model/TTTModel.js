@@ -17,14 +17,16 @@ class TTTModel {
     return this.#ertek;
   }
 
-  KovetkezoJatekos(){
-    let kovetkezik="";
+  kovetkezoJatekos(){
+    let kovetkezo;
     if (this.#lepes % 2 == 0) {
-        kovetkezik = "<span class='X'>X</span>";
+      kovetkezo = "<span class='O'>O</span>";
       } else {
-        kovetkezik = "<span class='O'>O</span>";
+        kovetkezo = "<span class='X'>X</span>";
+        
       }
-      return this.kovetkezik;
+      return kovetkezo;
+      
   }
 }
 export default TTTModel;

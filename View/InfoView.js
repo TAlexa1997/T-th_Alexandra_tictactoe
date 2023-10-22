@@ -5,8 +5,8 @@ class InfoView {
     this.pElem = $(".kovetkezik p");
   }
 
-  setpElem() {
-    this.pElem.html(kovetkezik + " következik!");
+  setpElem(kovetkezo) {
+    this.pElem.html( kovetkezo + "következik!");
   }
 
   #Osszeallit() {

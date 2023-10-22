@@ -11,7 +11,7 @@ class TTTController {
       //itt hívom meg a Model-t hogy mondja meg hogy ki jön
       let ertek =this.tttModel.aktualisJatekos();
       event.detail.setErtek(ertek);
-      let kovJa= this.tttModel.KovetkezoJatekos();
+      let kovJa= this.tttModel.kovetkezoJatekos();
       this.infoView.setpElem(kovJa);
     });
     
