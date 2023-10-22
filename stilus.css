@@ -1,0 +1,131 @@
+:root {
+  --meret: 4;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url(abstract-uv-ultraviolet-light-composition_23-2149243965.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+h1 {
+  animation: h1 2s alternate-reverse infinite;
+  color: #007bff;
+  font-family: Cursive;
+  font-size: 80px;
+  text-align: center;
+}
+
+@keyframes h1 {
+  from {
+    text-shadow: 0 0 10px rgba(0, 123, 255, 0.7),
+      0 0 40px rgba(0, 123, 255, 0.7), 0 0 100px rgba(0, 123, 255, 0.7);
+  }
+
+  50% {
+    color: #ff00ea;
+    text-shadow: 0 0 10px rgba(251, 0, 255, 0.7),
+      0 0 40px rgba(251, 0, 255, 0.7), 0 0 100px rgba(251, 0, 255, 0.7);
+  }
+  to {
+    text-shadow: 0 0 5px rgba(0, 123, 255, 0.7), 0 0 20px rgba(0, 123, 255, 0.7),
+      0 0 60px rgba(0, 123, 255, 0.7);
+  }
+}
+
+.kovetkezik p,h2{
+  text-align: center;
+  padding-right: 10vh;
+  font-size: 35px;
+}
+
+.elem {
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.545);
+  border-collapse: none;
+  background-color: rgba(0, 0, 0, 0.263);
+}
+.elem p {
+  padding: 0;
+  margin: 0;
+  padding-top: 15px;
+}
+
+.X {
+  animation: X 2s alternate-reverse infinite;
+  color: #ff00ea;
+  font-family: Cursive;
+  font-size: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+@keyframes X {
+  from {
+    text-shadow: 0 0 10px rgba(251, 0, 255, 0.7),
+      0 0 40px rgba(251, 0, 255, 0.7), 0 0 100px rgba(251, 0, 255, 0.7);
+  }
+  to {
+    text-shadow: 0 0 5px rgba(251, 0, 255, 0.7), 0 0 20px rgba(251, 0, 255, 0.7),
+      0 0 60px rgba(251, 0, 255, 0.7);
+  }
+}
+
+.O {
+  
+    animation: O 2s alternate-reverse infinite;
+    color: #007bff;
+    font-family: Cursive;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  @keyframes O {
+    from {
+      text-shadow: 0 0 10px rgba(0, 123, 255, 0.7),
+        0 0 40px rgba(0, 123, 255, 0.7), 0 0 100px rgba(0, 123, 255, 0.7);
+    }
+    to {
+      text-shadow: 0 0 5px rgba(0, 123, 255, 0.7), 0 0 20px rgba(0, 123, 255, 0.7),
+        0 0 60px rgba(0, 123, 255, 0.7);
+    }
+  }
+
+article {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 80%;
+  margin: auto;
+}
+
+.jatekter {
+  display: grid;
+  grid-template-columns: repeat(var(--meret), 100px);
+  grid-template-rows: repeat(var(--meret), 100px);
+  margin: auto;
+  width: 50%;
+}
+
+footer {
+  animation: footer 2s alternate-reverse infinite;
+  color: #ff00ea;
+  font-family: Cursive;
+  font-size: 22px;
+  padding-top: 30px;
+  text-align: center;
+}
+@keyframes footer {
+  from {
+    text-shadow: 0 0 10px rgba(251, 0, 255, 0.7),
+      0 0 40px rgba(251, 0, 255, 0.7), 0 0 100px rgba(251, 0, 255, 0.7);
+  }
+  to {
+    text-shadow: 0 0 5px rgba(251, 0, 255, 0.7), 0 0 20px rgba(251, 0, 255, 0.7),
+      0 0 60px rgba(251, 0, 255, 0.7);
+  }
+}
