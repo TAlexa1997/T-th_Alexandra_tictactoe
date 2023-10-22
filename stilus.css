@@ -42,14 +42,19 @@ h1 {
   text-align: center;
   padding-right: 10vh;
   font-size: 35px;
+  
 }
+
+
+
 
 .elem {
   text-align: center;
   font-size: 50px;
   border: 1px solid rgba(255, 255, 255, 0.545);
-  border-collapse: none;
+  border-style: dashed;
   background-color: rgba(0, 0, 0, 0.263);
+  border-collapse: collapse;
 }
 .elem p {
   padding: 0;
@@ -108,6 +113,7 @@ article {
   grid-template-columns: repeat(var(--meret), 100px);
   grid-template-rows: repeat(var(--meret), 100px);
   margin: auto;
+  
   width: 50%;
 }
 

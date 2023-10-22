@@ -6,7 +6,7 @@ class InfoView {
   }
 
   setpElem(kovetkezo) {
-    this.pElem.html( kovetkezo + "következik!");
+    this.pElem.html( kovetkezo + "    &nbsp;&nbsp;&nbsp;  " +"következik!");
   }
 
   #Osszeallit() {
